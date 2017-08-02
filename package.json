@@ -1,0 +1,37 @@
+{
+  "name": "ag-grid-angular-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "rollup -c rollup.config.js",
+    "serve": "http-server ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ag-grid": "12.0.2",
+    "ag-grid-angular": "12.0.0",
+    "@angular/animations": "4.2.6",
+    "@angular/common": "4.2.6",
+    "@angular/compiler": "4.2.6",
+    "@angular/core": "4.2.6",
+    "@angular/forms": "4.2.6",
+    "@angular/http": "4.2.6",
+    "@angular/platform-browser": "4.2.6",
+    "@angular/platform-browser-dynamic": "4.2.6",
+    "@angular/router": "4.2.6",
+    "core-js": "2.4.1",
+    "rxjs": "5.1.1",
+    "zone.js": "0.8.16",
+    "rollup": "0.45.2",
+    "rollup-plugin-commonjs": "8.0.2",
+    "rollup-plugin-node-resolve": "3.0.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.1.2",
+    "@angular/compiler-cli": "4.2.6",
+    "@angular/language-service": "4.2.6",
+    "http-server": "0.10.0"
+  }
+}
