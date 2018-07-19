@@ -2,6 +2,7 @@
 `npm install`
 
 `./node_modules/.bin/rollup main.js -f umd -o rolled-up-bundle.js -c rollup.config.js`
+
 ...would be `npm run rollup`, but see https://github.com/rollup/rollup/issues/2341
 
 `npm run serve`
