@@ -18,7 +18,8 @@ export default {
                 //     'node_modules/ag-grid-angular/**'
                 ],
                 namedExports: {
-                    'node_modules/ag-grid-angular/main.js': ['AgGridModule']
+                    'node_modules/ag-grid-angular/main.js': ['AgGridModule'],
+                    'node_modules/ag-grid-angular': ['AgGridModule']
                 }
             }
         )
