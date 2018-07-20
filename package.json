@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ag-grid": "18.1.1",
+    "ag-grid": "^18.1.1",
     "ag-grid-angular": "18.1.0",
     "@angular/animations": "6.0.9",
     "@angular/common": "6.0.9",
