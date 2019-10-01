@@ -5,8 +5,8 @@
   "author": "Sean Landsman <sean@thelandsmans.com>",
   "license": "MIT",
   "dependencies": {
-    "ag-grid-community": "file:../../IdeaProjects/ag/ag-grid/ag-grid/packages/ag-grid-community/ag-grid-community-21.2.2.tgz",
-    "ag-grid-enterprise": "file:../../IdeaProjects/ag/ag-grid/ag-grid/packages/ag-grid-enterprise/ag-grid-enterprise-21.2.2.tgz"
+    "ag-grid-community": "22.0.0",
+    "ag-grid-enterprise": "22.0.0"
   },
   "devDependencies": {
     "rollup": "1.22.0",
