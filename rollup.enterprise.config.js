@@ -1,9 +1,9 @@
 const node = require('rollup-plugin-node-resolve');
 
 export default {
-    input: './main-community.js',
+    input: './main-enterprise.js',
     output: {
-        file: './dist/community-bundle.js',
+        file: './dist/enterprise-bundle.js',
         format: 'umd',
     },
     plugins: [

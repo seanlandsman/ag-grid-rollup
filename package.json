@@ -1,0 +1,20 @@
+{
+  "name": "ag-grid-rollup-javascript",
+  "version": "1.0.0",
+  "description": "Rollup with ag-Grid and JavaScript",
+  "author": "Sean Landsman <sean@thelandsmans.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ag-grid-community": "file:../../IdeaProjects/ag/ag-grid/ag-grid/packages/ag-grid-community/ag-grid-community-21.2.2.tgz",
+    "ag-grid-enterprise": "file:../../IdeaProjects/ag/ag-grid/ag-grid/packages/ag-grid-enterprise/ag-grid-enterprise-21.2.2.tgz"
+  },
+  "devDependencies": {
+    "rollup": "1.22.0",
+    "rollup-plugin-node-resolve": "5.2.0"
+  },
+  "scripts": {
+    "build-community-example": "rollup -c rollup.community.config.js",
+    "build-enterprise-example": "rollup -c rollup.enterprise.config.js",
+    "build": "npm run build-community-example && npm run build-enterprise-example"
+  }
+}
