@@ -1,4 +1,5 @@
-const node = require('rollup-plugin-node-resolve');
+import { nodeResolve } from '@rollup/plugin-node-resolve';
+import postcss from 'rollup-plugin-postcss'
 
 export default {
     input: './main-community.js',
@@ -7,7 +8,11 @@ export default {
         format: 'umd',
     },
     plugins: [
-        node()
+        nodeResolve(),
+        postcss({
+            extract: true,
+            extensions: [".css"]
+        })
     ],
     onwarn: (msg, warn) => {
         if (msg.code === 'THIS_IS_UNDEFINED') return;
